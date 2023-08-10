@@ -1,0 +1,52 @@
+.student-collaboration-page {
+  background-color: black;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.project-opportunity {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.project-opportunity h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project-opportunity p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.project-opportunity strong {
+  font-weight: bold;
+}
+
+/* Apply button styles */
+.apply-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.apply-button:hover {
+  background-color: #0056b3;
+}

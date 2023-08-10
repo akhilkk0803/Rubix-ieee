@@ -1,0 +1,56 @@
+.feed-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel-container {
+    width: 90%;
+    overflow: hidden;
+    position: relative;
+    margin: 10px;
+  }
+  
+  .carousel {
+    display: flex;
+    flex-wrap: nowrap;
+    transition: transform 0.3s ease;
+  }
+  
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 12px;
+  }
+  
+  .carousel-btn:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .carousel-btnP img {
+    height: 30px;
+  }
+  .carousel-btnN img {
+    height: 30px;
+  }
+
+  button {
+    margin: 0 1%;
+  }
+
+  @media (max-width: 768px) {
+    .carousel-btn img {
+      height: 20px;
+    }
+  }
+  
