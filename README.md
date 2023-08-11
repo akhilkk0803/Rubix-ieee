@@ -1,14 +1,3 @@
-# Hackdays
-
-This repository contains the code for a frontend website built using the React framework. The website was built in 48 hours by Team 295 in the Hackathon of Hackdays@Sellular. The website is called HackNation and contains various Hackathons taking place at the moment.
-
-## Features
-
-* The website lists all the Hackathons taking place at the moment.
-* Users can filter the Hackathons by location, date, and topic.
-* Users can sign up for Hackathons.
-* Users can create a profile and share their projects.
-
 ## Contributing
 
 We welcome contributions to this project. If you would like to contribute, please fork the repository and submit a pull request.
